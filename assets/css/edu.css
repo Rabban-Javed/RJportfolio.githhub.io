@@ -1,0 +1,65 @@
+
+.education {
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .education h2 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .education-cards {
+    /* display: flex; */
+    display: inline-flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .education-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .education-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .education-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .education-card p {
+    color: #fdf4f4;
+    margin-bottom: 12px;
+  }
+  
+  .education-card a {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .education-card a:hover {
+    background-color: #0056b3;
+  }
+  
