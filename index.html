@@ -6,6 +6,7 @@
 
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/edu.css">
+        <link rel="stylesheet" href="dark.css">
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -30,6 +31,10 @@
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
+                <div class="light-mode">
+                    <button id="toggle-mode">Dark</button>
+                    <script src="script.js"></script>
+                </div>
 
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
@@ -49,13 +54,12 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.facebook.com/reahan.khan.1213?mibextid=ZbWKwL" target="_blank" class="footer__icon1"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://www.instagram.com/rabban.j/" target="_blank" class="footer__icon1"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://www.linkedin.com/in/rabban-javed-778867220" target="_blank" class="footer__icon1"><i class='bx bxl-linkedin' ></i></a>    
-                    <a href="" class="footer__icon1"><i class='bx bxl-github' ></i></a>
-                    
-                
+                    <a href="https://www.facebook.com/reahan.khan.1213?mibextid=ZbWKwL" target="_blank" class="footer__icon1" style="color: blue;"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/rabban.j/" target="_blank" class="footer__icon1" style="color: blue;"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/rabban-javed-778867220" target="_blank" class="footer__icon1" style="color: blue;"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="footer__icon1" style="color: blue;"><i class='bx bxl-github'></i></a>
                 </div>
+                
                 
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -194,8 +198,8 @@
                     <!-- Education cards will go here -->
                     <div class="education-card">
                       <!-- <img src="course-image.jpg" alt="Course Image"> -->
-                      <label for="cards"><b>Amity University</b></label>
-                      <h3>MCA</h3>
+                      <label for="cards" class="label"><b>Amity University</b></label>
+                      <h3 >MCA</h3>
                       <b>Cgpa-: 7.8</b>
                       <p>(2021-2023)</p>
                       <a href="assets/img/Master.jpg" target="_blank">View Certificate</a>

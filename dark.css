@@ -1,0 +1,28 @@
+/* Default light mode styles */
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Button styling */
+#toggle-mode {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    margin: 20px;
+}
+
+#toggle-mode:hover {
+    background-color: #555;
+}
